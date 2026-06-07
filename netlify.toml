@@ -1,9 +1,9 @@
 [build]
   command = "npm install && vite build"
-  publish = "dist/public"
+  publish = "dist/client"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"
 
 [[redirects]]
   from = "/*"
